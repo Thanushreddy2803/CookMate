@@ -1,0 +1,44 @@
+/* Global Styles for the App */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff3e0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #ff7043;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #df4a13;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
